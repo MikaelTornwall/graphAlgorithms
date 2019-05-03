@@ -2,6 +2,7 @@ package algorithms;
 
 import algorithms.dag.TopologicalSort;
 import algorithms.dag.Kosaraju;
+import algorithms.dag.LongestPath;
 import algorithms.shortestpath.Dijkstra;
 import algorithms.shortestpath.BellmanFord;
 import java.util.*;
@@ -46,6 +47,12 @@ public class Main {
         Kosaraju kosaraju = new Kosaraju();
         List<List<Integer>> components = kosaraju.components(6, new int[]{1, 2, 3, 3, 3, 4, 4, 5, 6}, new int[]{3, 1, 2, 4, 5, 2, 6, 6, 5});
         System.out.println(components);
+        
+        // Longest path in DAG
+        LongestPath longestPath = new LongestPath();
+        int length = longestPath.getLength(7, new int[]{1, 1, 2, 3, 4, 4, 5, 6}, new int[]{2, 4, 3, 7, 3, 5, 6, 3});
+        System.out.println(length);
+        
     }
     
 }
