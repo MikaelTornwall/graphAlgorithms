@@ -28,7 +28,7 @@ public class TopologicalSort {
         }
     }
     
-    public void bfs(int u) {
+    public void dfs(int u) {
         status[u] = "gray";
         
         for (Integer v : adjacencyList[u]) {
@@ -36,7 +36,7 @@ public class TopologicalSort {
                 cycle = true;
                 return;
             } else if (status[v] == "white") {
-                bfs(v);
+                dfs(v);
             }            
         }
         status[u] = "black";
@@ -50,7 +50,7 @@ public class TopologicalSort {
         
         for (int i = 1; i <= n; i++) {
             if (status[i] == "white") {
-                bfs(i);
+                dfs(i);
             }
         }        
         

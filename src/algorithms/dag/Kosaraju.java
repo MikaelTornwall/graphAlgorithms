@@ -38,14 +38,14 @@ public class Kosaraju {
         }      
     }
     
-    public void bfs(int u) {
+    public void dfs(int u) {
         status[u] = "gray";
         
         for (Integer v : helper[u]) {
             if (status[v] == "gray" && secondRound) {                
                 component = new ArrayList<>();
             } else if (status[v] == "white") {
-                bfs(v);
+                dfs(v);
             }
         }
         
@@ -66,7 +66,7 @@ public class Kosaraju {
         
         for (int i = 1; i < n; i++) {
             if (status[i] != "black") {
-                bfs(i);
+                dfs(i);
             }
         }
         
@@ -76,7 +76,7 @@ public class Kosaraju {
         
         while (!order.isEmpty()) {
             if (status[order.peekFirst()] == "white") {                                
-                bfs(order.poll());
+                dfs(order.poll());
                 components.add(component);
             } else {
                 order.poll();
