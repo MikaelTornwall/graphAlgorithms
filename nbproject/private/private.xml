@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/ShortestPath/src/algorithms/shortestpath/domain/Vertice.java</file>
-            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/ShortestPath/src/algorithms/dag/TopologicalSort.java</file>
-            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/ShortestPath/src/algorithms/shortestpath/BellmanFord.java</file>
-            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/ShortestPath/src/algorithms/shortestpath/domain/Edge.java</file>
-            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/ShortestPath/src/algorithms/Main.java</file>
-            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/ShortestPath/src/algorithms/shortestpath/Dijkstra.java</file>
+            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/GraphAlgorithms/src/algorithms/graphtraversal/DepthFirstSearch.java</file>
+            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/GraphAlgorithms/src/algorithms/Main.java</file>
+            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/GraphAlgorithms/src/algorithms/graphtraversal/BreadthFirstSearch.java</file>
+            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/GraphAlgorithms/src/algorithms/dag/LongestPath.java</file>
         </group>
     </open-files>
 </project-private>

@@ -13,13 +13,15 @@ public class Main {
    
     public static void main(String[] args) {
         
+        // Below we call each algorithm to demostrate it's action
+        
         // Unweighted graphs - Graph traversal
         
-        // Depth-First Search (DFS)
+        // Depth-First Search (DFS), time complexity O(n + m)
         DepthFirstSearch dfs = new DepthFirstSearch();
         dfs.printPath(5, new int[]{1, 1, 2, 2, 4}, new int[]{2, 3, 4, 5, 5});
         
-        // Breadth-First Search (BFS)
+        // Breadth-First Search (BFS), time complexity O(n + m)
         BreadthFirstSearch bfs = new BreadthFirstSearch();
         bfs.printPath(5, new int[]{1, 1, 2, 2, 4}, new int[]{2, 3, 4, 5, 5});
         
