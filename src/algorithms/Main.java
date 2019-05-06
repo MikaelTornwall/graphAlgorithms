@@ -7,13 +7,15 @@ import algorithms.shortestpath.Dijkstra;
 import algorithms.dag.TopologicalSort;
 import algorithms.dag.Kosaraju;
 import algorithms.dag.LongestPath;
+import algorithms.spanningtrees.Kruskal;
+import algorithms.spanningtrees.domain.Edge;
 import java.util.*;
 
 public class Main {
    
     public static void main(String[] args) {
         
-        // Below we call each algorithm to demostrate it's action
+        // Below we call each algorithm to demostrate it in action
         
         // Unweighted graphs - Graph traversal
         
@@ -68,6 +70,12 @@ public class Main {
         int length = longestPath.getLength(7, new int[]{1, 1, 2, 3, 4, 4, 5, 6}, new int[]{2, 4, 3, 7, 3, 5, 6, 3});
         System.out.println("Longest path: " + length);
         
+        // Spanning trees
+        
+        // Kruskal's algorithm, time complexity O(m log n)
+        Kruskal kruskal = new Kruskal();
+        ArrayList<Edge> minimumSpanningTree = kruskal.minimumSpanningTree(5, new int[]{1, 1, 2, 2, 3, 4}, new int[]{2, 3, 3, 4, 5, 5}, new int[]{2, 4, 1, 2, 7, 5});
+        System.out.println("Kruskal, minimum spanning tree: " + minimumSpanningTree);
     }
     
 }

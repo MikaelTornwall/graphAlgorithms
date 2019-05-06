@@ -3,10 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/GraphAlgorithms/src/algorithms/graphtraversal/DepthFirstSearch.java</file>
+            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/GraphAlgorithms/src/algorithms/spanningtrees/Kruskal.java</file>
             <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/GraphAlgorithms/src/algorithms/Main.java</file>
-            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/GraphAlgorithms/src/algorithms/graphtraversal/BreadthFirstSearch.java</file>
-            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/GraphAlgorithms/src/algorithms/dag/LongestPath.java</file>
+            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/GraphAlgorithms/src/algorithms/shortestpath/BellmanFord.java</file>
+            <file>file:/Users/Duuni/NetBeansProjects/Algoritmit/GraphAlgorithms/src/algorithms/shortestpath/Dijkstra.java</file>
         </group>
     </open-files>
 </project-private>
