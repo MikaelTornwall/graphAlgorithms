@@ -9,6 +9,7 @@ import algorithms.dag.Kosaraju;
 import algorithms.dag.LongestPath;
 import algorithms.spanningtrees.Kruskal;
 import algorithms.spanningtrees.domain.Edge;
+import algorithms.maximumflow.FordFulkerson;
 import java.util.*;
 
 public class Main {
@@ -76,6 +77,13 @@ public class Main {
         Kruskal kruskal = new Kruskal();
         ArrayList<Edge> minimumSpanningTree = kruskal.minimumSpanningTree(5, new int[]{1, 1, 2, 2, 3, 4}, new int[]{2, 3, 3, 4, 5, 5}, new int[]{2, 4, 1, 2, 7, 5});
         System.out.println("Kruskal, minimum spanning tree: " + minimumSpanningTree);
+        
+        // Maximum flow
+        
+        // Ford-Fulkerson algorithm        
+        FordFulkerson fordFulkerson = new FordFulkerson();
+        int maximumFlow = fordFulkerson.maximumFlow(6, new int[]{1, 1, 2, 2, 2, 4, 3, 5, 5}, new int[]{2, 4, 3, 5, 4, 5, 6, 3, 6}, new int[]{11, 3, 3, 2, 6, 4, 6, 6, 5});
+        System.out.println("Ford-Fulkerson, maximum flow: " + maximumFlow);
     }
     
 }
