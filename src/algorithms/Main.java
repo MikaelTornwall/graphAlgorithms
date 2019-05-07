@@ -29,9 +29,7 @@ public class Main {
         BreadthFirstSearch bfs = new BreadthFirstSearch();
         bfs.printPath(5, new int[]{1, 1, 2, 2, 4}, new int[]{2, 3, 4, 5, 5});
         
-        // Weighted graphs
-        
-        // Shortest Paths
+        // Weighted graphs - Shortest Paths                
         
         // Bellman-Ford algorithm
         // Finds the shortest path, time complexity O(mn)
