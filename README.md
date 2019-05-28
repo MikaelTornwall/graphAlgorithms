@@ -12,7 +12,7 @@ Includes the following implementations:
 * Longest path in DAG
 * Kruskal's algorithm
 * Prim's algorithm
-* Ford-Fulkerson algorithm (Edmonds-Karp)
+* Ford-Fulkerson algorithm (Edmonds-Karp implementation)
 
 ## Graph Traversal
 
@@ -118,6 +118,6 @@ Steps:
 	b. Decrease the weight of each edge along the path with p
 	
 	c. Increase the weight of each residual edge along the path with p
-3. Continue until new paths can not be formed
+3. Continue until new paths can not be found
 
 
