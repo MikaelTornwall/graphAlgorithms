@@ -92,8 +92,11 @@ Steps:
 1. Create empty sets for nodes, S, and edges, F
 2. Select and arbitrary node and add it to set F
 3. Repeat the following steps n - 1 times:
+	
 	a. Select an edge with minimum weight that connects the set S to a node outside of the set S
+	
 	b. Add the edge to F
+	
 	c. Add the node to S
 
 ## Maximum Flow
@@ -109,8 +112,11 @@ Special features:
 Steps:
 1. On every round create path from source node to sink node
 2. After finding a path, we:
+	
 	a. Find an edge with the smallest capacity, lets denote that with p
+	
 	b. Decrease the weight of each edge along the path with p
+	
 	c. Increase the weight of each residual edge along the path with p
 3. Continue until new paths can not be formed
 
